@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FEF7F0;
+  color: #131415;
+  font-family: "Lato";
+  height: 100vh;
+  width: 100vw;
+}
+
+p {
+  font-size: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar, .main {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10vw;
+  position: relative;
+  width: 80vw;
+}
+
+.navbar {
+  top: 4vh;
+}
+
+.items, .item, .action {
+  align-items: center;
+  display: flex;
+}
+
+.items {
+  justify-content: space-between;
+}
+
+.items p, .item, .action p, .btn {
+  font-weight: 700;
+  padding: 0 1vw;
+}
+
+.item p {
+  font-weight: 700;
+  padding: 0;
+}
+
+.item img {
+  height: 6px;
+  padding: 0.5vh 0 0 0.6vw;
+  width: 12px;
+}
+
+.action p {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.action > .btn p {
+  padding: 0;
+}
+
+.btn {
+  border: solid 0.4px #131415;
+  border-radius: 8px;
+  height: fit-content;
+  padding: 1.5vh 1.7vh;
+  width: fit-content;
+}
+
+.btn p {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.main {
+  top: 15vh;
+}
+
+.text {
+  left: 5vw;
+  position: relative;
+  top: 1.5vh;
+  width: 22vw;
+}
+
+.text h2{
+  font-size: 40px;
+  padding-bottom: 25px;
+}
+
+.btn-full {
+  background-color: #131415;
+  border: none;
+  border-radius: 8px;
+  margin: 5vh 0;
+  padding: 2.5vh 4vh;
+}
+
+.btn-full p {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+li img {
+  height: 8px;
+  padding-right: 1vw;
+  width: 12px;
+}
+
+li {
+  margin-bottom: 1.5vh;
+}
+
+.bg {
+  height: 60vh;
+}
